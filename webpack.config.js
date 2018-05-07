@@ -5,7 +5,7 @@ module.exports = {
     bundle: resolve(__dirname, './main')
   },
   output: {
-    path: resolve(__dirname, './dist'),
+    path: resolve(__dirname, './test-dist'),
     filename: '[name].js'
   },
   module: {
